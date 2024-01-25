@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      #main {
+        width: 400px;
+        height: 482px;
+        display: flex;
+        background-color: blue;
+        justify-content: center;
+        align-items: centre;
+        margin-left: 40%;
+        margin-top: 10%;
+      }
+      #box1 {
+        background-color: #323b4c;
+        width: 132px;
+        height: 482px;
+      }
+      #box2 {
+        background-color: #d3d3d3;
+        width: 268px;
+        height: 482px;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+      #div-img {
+        background-color: #323b4c;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .img1 {
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 15%;
+        margin-bottom: 5%;
+      }
+      .l2-5 {
+        padding-top: 5%;
+        border-top: solid 1px white;
+        width: 80%;
+        height: 15%;
+        margin: 0px;
+        margin-left: 15%;
+        margin-bottom: 10%;
+      }
+      #font {
+        color: white;
+      }
+      .section {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0px;
+        margin-left: 15%;
+      }
+
+      .subheading {
+        font-size: 10px;
+        font-weight: bold;
+        margin: 0;
+      }
+      .highlights {
+        font-size: 8px;
+        /* font-weight: bold; */
+        margin: 0;
+      }
+      .details {
+        font-size: 6px;
+        margin: 0;
+      }
+      .R1 {
+        width: 100%;
+        height: 20%;
+        padding-top: 8%;
+        margin-bottom: 8.5%;
+      }
+      .Name-R2 {
+        margin: 0;
+      }
+      .subheading-R2 {
+        margin: 0;
+        font-size: 9px;
+        padding-bottom: 2px;
+      }
+      .section-R2 {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0px;
+      }
+      .R2 {
+        border-top: solid grey 1px;
+        width: 100%;
+        height: 18%;
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+      .R3 {
+        border-top: solid grey 1px;
+        width: 100%;
+        height: 13%;
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="box1">
+        <div class="div-img">
+          <img class="img1 rounded-circle" src="pofile_img.png" />
+        </div>
+        <p class="section" id="font">Contact</p>
+        <div class="l2-5">
+          <p class="subheading" id="font">Phone</p>
+          <p class="details" id="font">123-456-7890</p>
+
+          <p class="subheading" id="font">Email</p>
+          <p class="details" id="font">hello@reallygreatsite.com</p>
+
+          <p class="subheading" id="font">Address</p>
+          <p class="details" id="font">123 Anywhere St., Any City</p>
+        </div>
+
+        <p class="section" id="font">Education</p>
+        <div class="l2-5">
+          <p class="details" id="font">2008</p>
+          <p class="highlights" id="font">Enter Your Degree</p>
+          <p class="details" id="font">College/University</p>
+
+          <p class="details" id="font">2008</p>
+          <p class="highlights" id="font">Enter Your Degree</p>
+          <p class="details" id="font">College/University</p>
+        </div>
+
+        <p class="section" id="font">Expertise</p>
+        <div class="l2-5">
+          <li class="highlights" id="font">UI/UX</li>
+          <li class="highlights" id="font">Visual Design</li>
+          <li class="highlights" id="font">Wireframes</li>
+          <li class="highlights" id="font">Story Boards</li>
+          <li class="highlights" id="font">User Flows</li>
+          <li class="highlights" id="font">Process Flows</li>
+        </div>
+
+        <p class="section" id="font">Language</p>
+        <div class="l2-5">
+          <p class="details" id="font">English</p>
+          <p class="details" id="font">Spanish</p>
+        </div>
+      </div>
+
+      <div id="box2">
+        <div class="R1">
+          <h6 class="Name-R2"><b>Mariana Anderson</b></h6>
+          <p class="subheading-R2">Marketing Manager</p>
+          <p class="details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            iure dolores atque in ut incidunt nobis, quod maxime asperiores
+            molestias iusto tenetur distinctio vel illum quae necessitatibus
+            sunt mollitia optio? molestias iusto tenetur distinctio vel illum
+            quae necessitatibus sunt mollitia optio?
+          </p>
+        </div>
+        <p class="section-R2">Experience</p>
+        <div class="R2">
+          <p class="details">2020-2024</p>
+          <p class="details">Company Name | XYZ</p>
+          <p class="details"><b>Job Position Here</b></p>
+          <p class="details">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+            debitis necessitatibus ipsa, hic similique velit assumenda molestias
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+            debitis necessitatibus ipsa, hic similique velit assumenda molestias
+          </p>
+        </div>
+        <div class="R2">
+          <p class="details">2020-2024</p>
+          <p class="details">Company Name | XYZ</p>
+          <p class="details"><b>Job Position Here</b></p>
+          <p class="details">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+            debitis necessitatibus ipsa, hic similique velit assumenda molestias
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+            debitis necessitatibus ipsa, hic similique velit assumenda molestias
+          </p>
+        </div>
+        <div class="R2">
+          <p class="details">2020-2024</p>
+          <p class="details">Company Name | XYZ</p>
+          <p class="details"><b>Job Position Here</b></p>
+          <p class="details">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+            debitis necessitatibus ipsa, hic similique velit assumenda molestias
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+            debitis necessitatibus ipsa, hic similique velit assumenda molestias
+          </p>
+        </div>
+        <p class="section-R2">References</p>
+        <div class="R3"><p</div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
